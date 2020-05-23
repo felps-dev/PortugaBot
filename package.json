@@ -1,0 +1,14 @@
+{
+  "name": "portugabot",
+  "version": "0.0.1",
+  "description": "Um bot incoveniente para Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: not test specified\" && edit 1"
+  },
+  "author": "Pecolps",
+  "license": "GNU3",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
