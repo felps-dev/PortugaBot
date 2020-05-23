@@ -6,7 +6,8 @@ const bot = new Discord.Client();
 bot.login(token);
 
 bot.on('ready', () => {
-    console.log("To vivo")
+    console.log("To vivo");
+    bot.user.setActivity('sua mãe', {type: 'WATCHING'});
 })
 
 function responderPorindex(msg, arraydeRespostas){
